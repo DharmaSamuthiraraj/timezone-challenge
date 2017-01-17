@@ -1,0 +1,31 @@
+{
+	"port" : "3000",	
+	"googleApi" : {
+		"apiKey" : "AIzaSyBw5FploYixQkKHvPKDkKaHp2xbt1NO-b8",
+		"baseUrl" : "https://maps.googleapis.com/maps/api/",
+		"geocode" : "geocode/json",
+		"timezone" : "timezone/json"
+	},
+
+	"errorMessage" : {
+		"users" : {			
+			"invalidRequest" : {
+				"status" : "INVALID_REQUEST",
+				"errorMessage" : "Invalid request. 'name' parameter is required."	
+			}
+		}		
+
+	},
+
+	"linkedin" : {
+		"publicProfileBaseUrl" : "https://www.linkedin.com/in/"
+
+	},
+
+	"sampleProfile" : {
+		"name" : "Dharmendran Samuthiraraj",
+		"headline" : "Technology Specialist at PayPal via Cognizant",
+		"location" : "Chennai, Tamil Nadu, India",
+		"publicProfileUrl" : "https://in.linkedin.com/in/dharma-samuthiraraj"
+	}
+} 
